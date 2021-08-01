@@ -1,0 +1,40 @@
+@import "vars";
+@import "vendor/reset";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $primary;
+
+    font-family: "Nunito";
+    font-size: 1.4rem;
+    color: $white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/title-store";
+@import "blocks/store";
+@import "blocks/burger";
+
+
+
+
+
+
+
+
